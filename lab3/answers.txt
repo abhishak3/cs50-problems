@@ -1,0 +1,13 @@
+// sort1, sort2, and sort3 are binary files, so you won’t be able to view the C source code for each. We need to assess which sort implements which algorithm, run the sorts on different lists of values.
+
+sort1 uses: bubble sort
+
+How do you know?: this takes largest time in reversed and random txt files. so this is bubble sort
+
+sort2 uses: merge sort
+
+How do you know?: sort2 takes almost equal time to sort reversed50000.txt and sorted50000.txt and random50000.txt and is faster than other sorts.
+
+sort3 uses: selection sort
+
+How do you know?: this takes almost 3 seconds in random50000 and reversed50000 and sorted50000.
